@@ -16,7 +16,7 @@ $(document).ready(function(){
 //         let input3 = $("#valor").val();
 //         let input4 = $("#correo").val();
 //         let input5 = $("#plan").val();
-$("#elDiv").append(`<p><h2>¡Hola ${hijos[1]} </h2></p>`);
+$(".elDiv").append(`<p><h2>¡Hola ${hijos.val(1)} </h2></p>`);
 //     });
 
 });
